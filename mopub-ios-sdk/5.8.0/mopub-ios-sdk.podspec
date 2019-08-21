@@ -42,10 +42,6 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'Core' do |core|
-    core.source_files  = 'MoPubSDKFramework.framework/**/*.h'
-    core.resources            = ['MoPubSDKFramework.framework/*.{png,bundle,xib,nib}', 'MoPubSDKFramework.framework/MPAdapters.plist']
-    core.public_header_files  = 'MoPubSDKFramework.framework/**/*.h'
-    core.preserve_paths       = 'MoPubSDKFramework.framework'
     core.vendored_frameworks  = 'MoPubSDKFramework.framework'
   end
 
