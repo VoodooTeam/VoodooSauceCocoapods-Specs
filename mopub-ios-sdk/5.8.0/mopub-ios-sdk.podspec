@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
                             To learn more or sign up for an account, go to http://www.mopub.com. \n
                           DESC
   spec.social_media_url = 'http://twitter.com/mopub'
-  spec.source           = { :git => 'git@github.com:VoodooTeam/mopub-sniffer-ios-framework.git', :tag => spec.version.to_s }
+  spec.source           = { :git => 'https://github.com/VoodooTeam/mopub-sniffer-ios-framework.git', :tag => spec.version.to_s }
   spec.requires_arc     = true
   spec.ios.deployment_target = '8.0'
   spec.frameworks       = [
