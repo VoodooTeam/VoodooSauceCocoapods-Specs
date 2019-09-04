@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.voodoo.io'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Med Hajlaoui' => 'mhajlaoui@voodoo.io' }
-  s.source           = { :git => 'git@github.com:VoodooTeam/voodoo-ads-ios-framework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/voodooext/voodoo-ads-ios-framework.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
